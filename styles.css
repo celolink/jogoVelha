@@ -1,0 +1,51 @@
+body {
+    background-color: darkgray;
+    text-align: center;
+    font-family: monospace;
+}
+
+h1 {
+    padding: 20px 0px 0px 0px;
+    text-shadow: 2px 2px white;
+    font-size: 350%;
+}
+
+button {
+    background-color: white;
+    border: none;
+}
+
+button:disabled {
+    background-color: lightgray;
+}
+
+#score {
+    height: 80px;
+    width: 150px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+#game {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td, th {
+    border: 2px solid black;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+}
+
+.section {
+    width: 15%;
+    margin: auto;
+    padding: 20px;
+}

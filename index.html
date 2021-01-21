@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Jogo da Velha</h1>
+      <div class="section">
+        <table id="score">
+          <tr>
+            <th><b>X</b></th>
+            <th><b>O</b></th>
+          </tr>
+          </tr>
+            <td id="jogador1">0</td>
+            <td id="jogador2">0</td>
+          </tr>
+        </table>
+      </div>
+      <div class="section">
+        <p class="choice">Escolha:</p>
+        <p>
+        <button id="choose1" onclick="escolha('choose1')">X</button>
+        <button id="choose2" onclick="escolha('choose2')">O</button>
+        </p>
+        <table id="game">
+          <tr>
+            <td><button id="b1" class="block" onclick="jogada('b1')"></button></td>
+            <td><button id="b2" class="block" onclick="jogada('b2')"></button></td>
+            <td><button id="b3" class="block" onclick="jogada('b3')"></button></td>
+          </tr>
+          <tr>
+            <td><button id="b4" class="block" onclick="jogada('b4')"></button></td>
+            <td><button id="b5" class="block" onclick="jogada('b5')"></button></td>
+            <td><button id="b6" class="block" onclick="jogada('b6')"></button></td>
+          </tr>
+          <tr>
+            <td><button id="b7" class="block" onclick="jogada('b7')"></button></td>
+            <td><button id="b8" class="block" onclick="jogada('b8')"></button></td>
+            <td><button id="b9" class="block" onclick="jogada('b9')"></button></td>
+          </tr>
+        </table>
+        <p><button id=restart disabled="true" onclick="restart()">Reiniciar</button></p>
+      </div>
+    </div>
+    <script src="velha.js"></script>
+  </body>
+</html>
